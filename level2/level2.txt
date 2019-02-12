@@ -4,18 +4,38 @@ Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
 
+JavaScript code style is a convention how to write and structure when coding. The code style follows common practices when declaring variables and functions. Furthermore rules for indentations, white space and comments. The main reason for following code style is to make the code readabilty by us humains easier and it will make code maintaince much more simpler. 
+
 2. What is a Regular Expression?
+
+Regular expression is special code that can be used to validate specific type of pattern on a string e.g. an email address that needs to be writtern in a specific way with the "@" sign in the middle followed by top domain name.  
 
 3. What does the .random() method do?
 
+A method that will return a random number between specified intervals and if not specified it will return a fraction between 0 and 1. 
+
 4. What does the .sort() method do?
+
+The sort method will sort out an array and put it in an order e.g. if months it will put them in an order they fall in a sequence or if numbers it will sort it from lowest to highest. 
 
 5. What does the .reverse() method do?
 
+Reverse will switch orders of an array e.g. ["One", "Two", "Three"] will become ["Three", "Two", "One"]
+
 6. List two examples of bad JavaScript code.
+
+- The use of non-strict comparison operator "==" when comparing two types of data instead of "===" 
+
+- Calling a variable that is yet not declared or declared as global variable when in fact it's only needed locally within the function. 
 
 7. What data types can a JSON object contain?
 
+JSON objects can contain Arrays, Objects, Booleans, Null, Numbers and Strings 
+
 8. What is minifying JavaScript Code?
 
+JavaScript minifying is a way to compress JavaScript by removing white space, comments and shortening common programming launguages that will help to run the code faster. 
+
 9. What is a global variable?
+
+Global variables is a variable that is declared outside of a function and can be accessed from anywhere in the code. 
